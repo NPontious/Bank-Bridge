@@ -1,0 +1,23 @@
+# Binaries
+result
+bank-bridge
+*.exe
+*.test
+
+# Data & local databases
+/data/
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets & Environment
+.env
+.env.*
+*.password
+*.secret
+secrets/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
